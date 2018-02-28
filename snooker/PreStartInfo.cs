@@ -25,11 +25,35 @@ namespace snooker
 
         private void button1_Click(object sender, EventArgs e)
         {
-            list.Add(p1);
-            list.Add(p2);
-            table = new Table(list, radioButton1.Text,radioButton5.Text);
+            //Collect data and add into Table Object
+            //setTable();
             this.res = true;
             this.Close();
+        }
+
+        public void setTable()
+        {
+            //check no of balls
+            string noBallsChecked = ""; //checkBalls();
+            string gameTypeChecked = "";//checkGameType();
+            List<Player> newlist = new List<Player>();
+
+            //newlist = getListOfPlayers();
+            /* Make a Object Here pass alll the values This object will be passed back to main form where we wil use all the execution*/
+            //table = new Table(list, radioButton1.Text, radioButton5.Text);
+        }
+
+        //public List<Player> getListOfPlayers() {
+        //    return;
+        //}
+        public string checkBalls()
+        {
+            return "";
+        }
+
+        public string checkGameType()
+        {
+            return "";
         }
     }
 }

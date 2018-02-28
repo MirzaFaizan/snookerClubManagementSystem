@@ -9,3 +9,5 @@ C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\s
 C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.MainForm.resources
 C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.csprojResolveAssemblyReference.cache
 C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.PreStartInfo.resources
+C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.FullRecord.resources
+C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.LoginAdmin.resources

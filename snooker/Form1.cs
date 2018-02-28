@@ -106,6 +106,8 @@ namespace snooker
                 _timerRunning = false;
             }
         }
+        /* This function will save data into databse and display bill */
+        //public void matchEnded(){}
 
     }
 }
