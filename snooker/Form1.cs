@@ -12,6 +12,7 @@ namespace snooker
 {
     public partial class MainForm : Form
     {
+        private PreStartInfo check;
         private Timer _timer;
 
         private DateTime _startTime = DateTime.MinValue;
@@ -49,9 +50,20 @@ namespace snooker
 
         private void button6_Click(object sender, EventArgs e)
         {
-
-            
-            if (this.tableOne == true) {
+            bool response;
+            if (btnTableOne.Text == "Start")
+            {
+                using (PreStartInfo formOptions = new PreStartInfo())
+                {
+                    // passing this in ShowDialog will set the .Owner 
+                    // property of the child form
+                    formOptions.ShowDialog(this);
+                    response = formOptions.res;
+                    MessageBox.Show(formOptions.p1.name);
+                }
+            }
+            if (!_timerRunning == true)
+            {
                 GameStart();
                 btnTableOne.Text = "Stop";
                 this.tableOne = false;
@@ -62,10 +74,13 @@ namespace snooker
                 btnTableOne.Text = "Start";
             }
 
+
+
         }
 
         public void GameStart()
         {
+            
             if (!_timerRunning)
             {
                 // Set the start time to Now
@@ -80,11 +95,14 @@ namespace snooker
 
         }
 
+        
         public void GameStop()
         {
             if (_timerRunning)
             {
                 _timer.Stop();
+                _totalElapsedTime = TimeSpan.Zero;
+                TimeTableOne.Text = _totalElapsedTime.ToString();
                 _timerRunning = false;
             }
         }

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace snooker
 {
-    class Player
+    public class Player
     {
-        private string name { get; set; }
-        private string phno { get; set; }
+        public string name { get; set; }
+        public string phno { get; set; }
         
     }
 }
