@@ -55,5 +55,24 @@ namespace snooker
         {
             return "";
         }
+
+        private void PreStartInfo_Load(object sender, EventArgs e)
+        {
+            //string ConString = ConfigurationManager.ConnectionStrings["ConString"].ConnectionString;
+
+            //using (SqlConnection con = new SqlConnection(ConString))
+            //{
+            //    SqlCommand cmd = new SqlCommand("SELECT NAME FROM players", con);
+            //    con.Open();
+            //    SqlDataReader reader = cmd.ExecuteReader();
+            //    AutoCompleteStringCollection MyCollection = new AutoCompleteStringCollection();
+            //    while (reader.Read())
+            //    {
+            //        MyCollection.Add(reader.GetString(0));
+            //    }
+            //    txtFirstName.AutoCompleteCustomSource = MyCollection;
+            //    con.Close();
+            //}
+        }
     }
 }

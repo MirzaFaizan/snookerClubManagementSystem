@@ -16,5 +16,10 @@ namespace snooker
         {
             InitializeComponent();
         }
+
+        private void FullRecord_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

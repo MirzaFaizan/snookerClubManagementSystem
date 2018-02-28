@@ -37,17 +37,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(45, 9);
+            this.label1.Location = new System.Drawing.Point(19, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(74, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "Search HERE";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(86, 6);
+            this.textBox1.Location = new System.Drawing.Point(99, 12);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(161, 20);
             this.textBox1.TabIndex = 1;
             // 
             // dataGridView1
@@ -55,7 +55,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 54);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 195);
+            this.dataGridView1.Size = new System.Drawing.Size(260, 195);
             this.dataGridView1.TabIndex = 2;
             // 
             // FullRecord
@@ -68,6 +68,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FullRecord";
             this.Text = "FullRecord";
+            this.Load += new System.EventHandler(this.FullRecord_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -146,6 +146,8 @@
             // 
             // textBox1
             // 
+            this.textBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.textBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.textBox1.Location = new System.Drawing.Point(6, 19);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(188, 20);
@@ -173,6 +175,7 @@
             this.Controls.Add(this.Match);
             this.Name = "PreStartInfo";
             this.Text = "PreStartInfo";
+            this.Load += new System.EventHandler(this.PreStartInfo_Load);
             this.Match.ResumeLayout(false);
             this.Match.PerformLayout();
             this.groupBox2.ResumeLayout(false);
