@@ -17,6 +17,13 @@ namespace snooker
             InitializeComponent();
         }
 
-      
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "Faizan" && textBox2.Text == "wow")
+            {
+                FullRecord f1 = new FullRecord();
+                f1.Show();
+            }
+        }
     }
 }
