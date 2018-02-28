@@ -1,0 +1,10 @@
+C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\bin\Debug\snooker.exe.config
+C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\bin\Debug\snooker.exe
+C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\bin\Debug\snooker.pdb
+C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.Properties.Resources.resources
+C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.csproj.GenerateResource.Cache
+C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.csproj.CoreCompileInputs.cache
+C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.exe
+C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.pdb
+C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.MainForm.resources
+C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.csprojResolveAssemblyReference.cache
