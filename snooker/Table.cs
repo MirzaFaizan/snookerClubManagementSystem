@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 using System.Diagnostics;
 namespace snooker
 {
-    class Table
+    public class Table
     {
-        private Player[] players { get; set; }
+        private List<Player> players { get; set; }
         private string matchType { get; set; }
         private string balls { get; set; }
-        public Table(Player[] inPlayers,string inMatchType, string inBalls)
+        public Table(List<Player> inPlayers,string inMatchType, string inBalls)
         {
             this.players = inPlayers;
             this.matchType = inMatchType;
