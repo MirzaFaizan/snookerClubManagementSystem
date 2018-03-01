@@ -18,6 +18,8 @@ namespace snooker
             this.balls = inBalls;
         }
 
+        public Table() { }
+
         public void endCurrentMatch()
         {
             // set defined rules here

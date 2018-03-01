@@ -13,8 +13,7 @@ namespace snooker
 {
     public partial class PreStartInfo : Form
     {
-        public Player p1 = new Player();
-        public Player p2 = new Player();
+
         public List<Player> list = new List<Player>();
         public Table table;
         public bool res = false;
@@ -48,6 +47,18 @@ namespace snooker
         //}
         public string checkBalls()
         {
+            if (balls6.Checked == true)
+            {
+                return balls6.Text;
+            }
+            else if(balls8.Checked == true)
+            {
+                return balls8.Text;
+            }
+            else if(balls12.Checked== true)
+            {
+                return balls12.Text;
+            }
             return "";
         }
 
@@ -74,5 +85,12 @@ namespace snooker
             //    con.Close();
             //}
         }
+
+        private void Match_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }

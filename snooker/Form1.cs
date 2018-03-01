@@ -50,6 +50,7 @@ namespace snooker
 
         private void button6_Click(object sender, EventArgs e)
         {
+            Table temp = new Table();
             bool response;
             if (btnTableOne.Text == "Start")
             {
@@ -59,7 +60,7 @@ namespace snooker
                     // property of the child form
                     formOptions.ShowDialog(this);
                     response = formOptions.res;
-                    MessageBox.Show(formOptions.p1.name);
+                    temp = formOptions.table;
                 }
             }
             if (!_timerRunning == true)

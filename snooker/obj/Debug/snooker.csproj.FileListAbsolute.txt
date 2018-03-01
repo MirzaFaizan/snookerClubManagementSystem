@@ -11,3 +11,15 @@ C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\s
 C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.PreStartInfo.resources
 C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.FullRecord.resources
 C:\Users\Adnan Ejaz\source\repos\snookerClubManagementSystem\snooker\obj\Debug\snooker.LoginAdmin.resources
+C:\Users\JIBRAN\Documents\Visual Studio 2013\Projects\snookerClubManagementSystem\snooker\bin\Debug\snooker.exe.config
+C:\Users\JIBRAN\Documents\Visual Studio 2013\Projects\snookerClubManagementSystem\snooker\obj\Debug\snooker.exe
+C:\Users\JIBRAN\Documents\Visual Studio 2013\Projects\snookerClubManagementSystem\snooker\obj\Debug\snooker.pdb
+C:\Users\JIBRAN\Documents\Visual Studio 2013\Projects\snookerClubManagementSystem\snooker\bin\Debug\snooker.exe
+C:\Users\JIBRAN\Documents\Visual Studio 2013\Projects\snookerClubManagementSystem\snooker\bin\Debug\snooker.pdb
+C:\Users\JIBRAN\Documents\Visual Studio 2013\Projects\snookerClubManagementSystem\snooker\obj\Debug\snooker.csprojResolveAssemblyReference.cache
+C:\Users\JIBRAN\Documents\Visual Studio 2013\Projects\snookerClubManagementSystem\snooker\obj\Debug\snooker.MainForm.resources
+C:\Users\JIBRAN\Documents\Visual Studio 2013\Projects\snookerClubManagementSystem\snooker\obj\Debug\snooker.FullRecord.resources
+C:\Users\JIBRAN\Documents\Visual Studio 2013\Projects\snookerClubManagementSystem\snooker\obj\Debug\snooker.LoginAdmin.resources
+C:\Users\JIBRAN\Documents\Visual Studio 2013\Projects\snookerClubManagementSystem\snooker\obj\Debug\snooker.PreStartInfo.resources
+C:\Users\JIBRAN\Documents\Visual Studio 2013\Projects\snookerClubManagementSystem\snooker\obj\Debug\snooker.Properties.Resources.resources
+C:\Users\JIBRAN\Documents\Visual Studio 2013\Projects\snookerClubManagementSystem\snooker\obj\Debug\snooker.csproj.GenerateResource.Cache
